@@ -1,0 +1,86 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background: rgb(214, 139, 139);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.container{
+position: relative;
+height: 500px;
+width: 1000px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: rgb(red, green, blue);
+box-shadow: 10px 10px 20px  black;
+
+}
+
+.container .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .day,
+.container .number
+{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.container .prev-date
+{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+
+
+
+}
+.container .prev-date{
+    color: rgb(109, 89, 89);
+}
+.container .number:hover,
+.container .pre-date:hover{
+    border: 2px solid;
+    
+    
+}
+.container .date
+{
+    width: 380px;
+    padding: 25px;
+
+}
+.container h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 15px 30px;
+
+
+}
+.container .image{
+    position: absolute;
+    top :0px;
+    right: 0px;
+
+}
+.container img{
+    height: 500px; 
+    padding: 30px;
+    width: 500px;
+}
